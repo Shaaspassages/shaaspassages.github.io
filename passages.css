@@ -332,6 +332,7 @@ body {
     align-content: center;
     text-align: justify;
     align-items: center;
+    width: 33vw;
 }
 
 .text_gallery_item p {
