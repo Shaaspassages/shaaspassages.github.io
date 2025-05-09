@@ -319,7 +319,7 @@ body {
     background-color: #2d3543;
     overflow: auto;
     padding: 5%;
-    display: grid;
+    display: flex;
     min-height: 10vh;
     gap: 10vh;
     max-width: 90vw;
