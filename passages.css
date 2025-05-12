@@ -311,28 +311,35 @@ body {
     align-items: center;
 }
 
+.article3_text_sec {
+    width: 50vw;
+}
+
 .article3_text_sec p {
+    width: 100%;
+}
+
+.expedition p {
     width: 50vw;
 }
 
 .text_gallery {
     background-color: #2d3543;
-    overflow: auto;
-    padding: 5%;
-    display: flex;
+    overflow: hidden;
+    padding: 2.5%;
+    display: inline-grid;
     min-height: 10vh;
     gap: 10vh;
-    max-width: 90vw;
+    width: 95vw;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto auto;
 }
 
 .text_gallery_item {
-    display: flex;
-    gap: 5vh;
-    flex-direction: column;
     align-content: center;
     text-align: justify;
     align-items: center;
-    width: 30vw;
+    width: auto;
 }
 
 .text_gallery_item p {
@@ -341,7 +348,8 @@ body {
 }
 
 .text_gallery_item img {
-    max-width: 22.5vw;
+    width: 22.5vw;
+    height: auto;
 }
 
 #article4 {
@@ -376,7 +384,6 @@ body {
     gap: 5vw;
     margin-bottom: 10vh;
 }
-
 
 .article5_wraps p {
     width: 40vw;
